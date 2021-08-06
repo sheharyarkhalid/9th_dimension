@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?5eb0a6f64535ce119b890a5bb477d5cd") format("truetype"),
+url("./flaticon.woff?5eb0a6f64535ce119b890a5bb477d5cd") format("woff"),
+url("./flaticon.woff2?5eb0a6f64535ce119b890a5bb477d5cd") format("woff2"),
+url("./flaticon.eot?5eb0a6f64535ce119b890a5bb477d5cd#iefix") format("embedded-opentype"),
+url("./flaticon.svg?5eb0a6f64535ce119b890a5bb477d5cd#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "twitter": "\f101",
+    "facebook": "\f102",
+    "github-character": "\f103",
+    "instagram": "\f104",
+    "youtube": "\f105",
+    "linkedin": "\f106",
+);
+
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-github-character:before {
+    content: map-get($flaticon-map, "github-character");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
