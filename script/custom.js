@@ -19,3 +19,19 @@ $('.Content_Hub').click(function () {
 $('.Company_Hub').click(function () {
     $('.company_hub_mobile').toggleClass('responsive_industry_toggle');
 });
+
+$('.Q_one').click(function () {
+    $('.A_one').toggleClass('answer_box_toggle');
+});
+
+$('.Q_two').click(function () {
+    $('.A_two').toggleClass('answer_box_toggle');
+});
+
+$('.Q_three').click(function () {
+    $('.A_three').toggleClass('answer_box_toggle');
+});
+
+$('.Q_four').click(function () {
+    $('.A_four').toggleClass('answer_box_toggle');
+});

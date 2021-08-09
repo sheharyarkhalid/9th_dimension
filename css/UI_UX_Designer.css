@@ -1,0 +1,41 @@
+.ui_ux_design_process_section{
+    float: left;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 90px 10px;
+    }
+    .ui_ux_design_process_heading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .ui_ux_design_process_heading h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #212529;
+        margin-bottom: 15px;
+    }
+    .ui_ux_design_process_heading p{
+        font-size: 16px;
+    margin-bottom: 15px;
+    color: #212529;
+    line-height: 22px;
+    
+    }
+    
+    .ui_ux_design_process_heading h1 span{
+        color: #2176ff !important;
+    }
+    .ui_ux_design_process_figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+    .ui_ux_design_process_figure img{
+        width: 100%;
+    }

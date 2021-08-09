@@ -1,0 +1,105 @@
+.for_ecommerce_page{
+margin-bottom: 0px !important;
+}
+.industries_part{
+    font-size: 36px;
+font-weight: 700;
+line-height: 1.2;
+color: #212529;
+margin: 0px;
+width: 100%;
+text-align: center;
+}
+.take_business_to_new_height_section{
+float: left;
+width: 100%;
+background-image: url(../image/git-strip-bg-cc23e7a4d87c1ff5ff2b61609cfd58f0.png);
+padding: 30px 10px;
+}
+.take_business_to_new_height{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 20px 0px;
+}
+.take_business_to_new_height h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+}
+.take_business_to_new_height .ecommerce_get_in_touch a{
+    background-color: #fff;
+font-size: 16px;
+color: #252525;
+text-decoration: none;
+border-radius: 50px;
+padding: 10px 30px;
+font-weight: 600;
+}
+
+.hire_ecommerce_developer_section{
+float: left;
+width: 100%;
+padding: 90px 10px;
+}
+.hire_ecommerce_developer_data{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: '. .';
+    gap: 70px 20px;
+}
+.hire_ecommerce_developer_text h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #212529;
+    margin-bottom:20px;
+
+}
+.hire_ecommerce_developer_text h1 span{
+    color: #2176ff !important;   
+}
+.hire_ecommerce_developer_text_box{
+display: flex;
+flex-direction: column;
+gap: 20px 0px;
+}
+.hire_ecommerce_developer_text_box ol li{
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.hire_ecommerce_developer_text_box .hire_ecommerce_developer_btn a{
+    background-color: #2176ff;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+.hire_ecommerce_developer_slider figure img{
+    width: 100%;
+}
+.ecommerce_company_patner{
+    margin-bottom: 0px;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    
+}
+@media (max-width: 767px) {
+    .hire_ecommerce_developer_data {
+        grid-template-columns: 1fr;
+        grid-template-areas: '.';
+    }
+}
+@media (max-width: 540px) {
+    
+}
